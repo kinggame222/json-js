@@ -1,8 +1,10 @@
 const v = {
 
     "id": {
-        "nom": [
-            "william",
+        "nom": [{
+            "william": "w",
+            "passe": "code"
+        },
             "antoine",
             "maxence",
             "william",
@@ -20,10 +22,6 @@ const v = {
     }
 
 }
-const mu =
-
-function what() {
 
 
-    console.log(v.id.nom[v.id.nom.length - 1]);
-}
+console.log(v);
